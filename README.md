@@ -4,34 +4,34 @@ erDiagram
     SECTION ||--o{ ENROLLMENT : includes
 
     PERSON {
-        int person_id PK
-        string first_name
-        string last_name
-        date birth_date
-        string gender
-        string address
-        string city
-        string state
-        string zip
+         person_id PK
+         first_name
+         last_name
+         birth_date
+         gender
+         address
+         city
+         state
+         zip
     }
 
     SECTION {
-        string subject PK
-        int number PK
-        int section PK
-        string title
-        int credit_hours
-        string instructor
-        string days
-        string start_time
-        string end_time
+         subject PK
+         number PK
+         section PK
+         title
+         credit_hours
+         instructor
+         days
+         start_time
+         end_time
     }
 
     ENROLLMENT {
-        int student_id PK
-        string subject FK
-        int number FK
-        int section FK
+         student_id PK
+         subject FK
+         FK
+         section FK
     }
 ```
 
