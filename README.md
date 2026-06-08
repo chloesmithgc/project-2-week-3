@@ -3,7 +3,7 @@ erDiagram
     PERSON ||--o{ ENROLLMENT : registration
     SECTION ||--o{ ENROLLMENT : records
 
-    Person {
+    PERSON {
          person_id PK
          first_name
          last_name
