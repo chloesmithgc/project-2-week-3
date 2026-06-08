@@ -4,7 +4,7 @@ erDiagram
     SECTION ||--o{ ENROLLMENT : records
 
     PERSON {
-         person_id PK
+         PERSON_id PK
          first_name
          last_name
          birth_date
