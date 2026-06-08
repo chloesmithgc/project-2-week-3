@@ -1,9 +1,9 @@
 ```mermaid
 erDiagram
-    PERSON ||--o{ ENROLLMENT : has
-    SECTION ||--o{ ENROLLMENT : includes
+    PERSON ||--o{ ENROLLMENT : registration
+    SECTION ||--o{ ENROLLMENT : records
 
-    PERSON {
+    Person {
          person_id PK
          first_name
          last_name
