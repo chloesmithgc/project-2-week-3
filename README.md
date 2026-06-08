@@ -28,7 +28,7 @@ erDiagram
     }
 
     ENROLLMENT {
-        int student_id FK
+        int student_id PK
         string subject FK
         int number FK
         int section FK
