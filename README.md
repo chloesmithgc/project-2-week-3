@@ -3,36 +3,36 @@ erDiagram
     PERSON ||--o{ ENROLLMENT : registration
     SECTION ||--o{ ENROLLMENT : records
 
-    PERSON {
-         PERSON_id PK
-         first_name
-         last_name
-         birth_date
-         gender
-         address
-         city
-         state
-         zip
+    PERSON { <br/>
+         PERSON_id PK <br/>
+         first_name <br/>
+         last_name<br/>
+         birth_date <br/>
+         gender <br/>
+         address <br/>
+         city <br/>
+         state <br/>
+         zip <br/>
     }
 
-    SECTION {
-         subject PK
-         number PK
-         section PK
-         title
-         credit_hours
-         instructor
-         days
-         start_time
-         end_time
+    SECTION { <br/>
+         subject PK <br/>
+         number PK <br/>
+         section PK <br/>
+         title <br/>
+         credit_hours <br/>
+         instructor <br/>
+         days <br/>
+         start_time <br/>
+         end_time <br/>
     }
 
-    ENROLLMENT {
-         student_id PK
-         subject FK
-         FK
-         section FK
-    }
+    ENROLLMENT { <br/>
+         student_id PK <br/>
+         subject FK <br/>
+         number FK <br/>
+         section FK <br/>
+    } 
 ```
 
 
